@@ -1,0 +1,125 @@
+# ==========================
+#  SISTEMA / AMBIENTE
+# ==========================
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+
+# Ambientes virtuais
+venv/
+env/
+ENV/
+.venv/
+
+# Logs
+*.log
+*.tmp
+*.temp
+
+# ==========================
+#  PYTHON
+# ==========================
+*.egg-info/
+*.egg
+dist/
+build/
+*.spec
+
+# Arquivos de cache
+.pytest_cache/
+coverage.xml
+htmlcov/
+.coverage
+.cache/
+
+# ==========================
+#  DJANGO
+# ==========================
+staticfiles/
+media/
+*.sqlite3
+db.sqlite3-journal
+*.pot
+
+# Migrations compilados
+**/migrations/**/__pycache__/
+**/migrations/*.pyc
+
+# Opcional: ignorar as migrações (se usar GitFlow)
+# **/migrations/
+
+# ==========================
+#  FRONTEND / HTML
+# ==========================
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Build do frontend
+dist/
+build/
+
+# ==========================
+#  VS CODE
+# ==========================
+.vscode/
+.code-workspace
+
+# ==========================
+#  TKINTER / ASSETS
+# ==========================
+assets/**/*.png
+assets/**/*.ico
+assets/**/*.jpg
+assets/icons/
+
+# Se quiser manter os ícones, remova o bloco acima
+
+# ==========================
+#  FLET / FLASK / WEBVIEW
+# ==========================
+__pycache__/
+*.db
+*.sqlite3
+
+# ==========================
+#  Cx_Freeze / EXECUTÁVEIS
+# ==========================
+build/
+dist/
+*.exe
+*.dll
+*.manifest
+
+# ==========================
+#  CONFIGS INTERNOS
+# ==========================
+configs/*.csv
+configs/*.json
+configs/*.ini
+configs/videos_ignorados.csv
+configs/*.log
+
+# Senhas / Tokens
+*.env
+.env*
+*secret*
+*password*
+
+# ==========================
+#  SCRIPTS DE SISTEMA
+# ==========================
+*.bat
+*.sh
+
+# ==========================
+#  OUTROS
+# ==========================
+tmp/
+temp/
+cache/
+.idea/
